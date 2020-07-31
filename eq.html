@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="css.css" type="text/css" rel="stylesheet">
+<title>Mercedes-Benz</title>
+<style>
+  
+    * {
+      box-sizing: border-box;
+    }
+
+
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 49%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      
+      content: "";
+      display: table;
+      clear: both;
+    }
+     
+   
+ 
+     
+    @media (max-width:1200px){.column{width:80%; height:auto;}}
+  </style>  
+</head>
+
+
+<body>
+	<header class="header">
+		<h1 class="logo"><a href="index.html"><img src="textimagini/8.png" width=200px></a></h1>
+      <ul class="main-nav">
+          <li class="dropdown">
+              <a href="modele.html" class="dropbtn">Modele noi</a>
+              <div class="dropdown-content">
+                <a href="s.html">Clasa S</a>
+                <a href="g.html" >Clasa G</a>
+                <a href="amg.html">AMG GT</a>
+              </div>
+            </li>
+            <li class="dropdown">
+                <a href="prototipuri.html" class="dropbtn" id="active">Prototipuri</a>
+                <div class="dropdown-content">
+                  <a href="eq.html" id="active">EQ-concept</a>
+                  <a href="plug.html">Plug-In Hybrid diesel</a>
+                </div>
+              </li>
+         
+          <li><a href="oferte.html">Oferte</a></li>
+          <li><a href="innformatii.html">Informații generale</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </header> 
+  <div class="row">
+      <div class="column" style=" padding-left:4em;">
+        <p style="font-size:20px;">Noua eră Mercedes începe azi: Conceptul Generation EQ anunță un SUV electric și sub-brandul electric EQ</p>
+        <img src="textimagini/504594l.jpg" width=387px height=231px style="margin-top:3em;">
+        <p style="width:80%;">Autonomia maximă anunțată de Mercedes pe viitoarea versiune de serie a SUV-ului german este de 500 de kilometri, identică cu cea avansată de Audi pentru conceptul SUV omolog.</p>
+        <img src="textimagini/214922l.jpg" width=417px height=189px style="margin-top:3em;">
+        <p style="width:80%;">Generation EQ Concept beneficiază de două motoare electrice, unul montat pe puntea față, celălalt pe puntea spate. Acestea dezvoltă în total peste 400 de cai putere. </p>
+
+      </div>
+      <div class="column" style="margin-top:3em;">
+        
+          <img src="textimagini/707146l.jpg" width=420px height=218px style="margin-top:3em;">
+          <br>
+          <p style="width:80%;">Se aglomerează coada la curent. Mercedes-Benz a dezvăluit astăzi la Paris conceptul Generation EQ, care nu doar că anunță un viitor SUV electric, ci dă startul unui sub-brand electric care va conține 10 modele până în 2025.</p>
+          <img src="textimagini/227333l.jpg" width=383px height=231px style="margin-top:3em;">
+          <p style="width:80%;">Modelul de producție inspirat din conceptul Generation EQ va fi primul dintr-o gamă care în 2025 va ajunge la 10 modele diferite. "Mașinile electrice ar trebui să adune între 15 și 25% dintre vânzările noastre totale în 2025", a spus azi Dieter Zetsche, CEO-ul Daimler. </p>
+         
+          </div>
+   
+     </div>
+ 
+
+
+
+
+</body>
+
+</html>

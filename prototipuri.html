@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="css.css" type="text/css" rel="stylesheet">
+<title>Mercedes-Benz</title>
+<style>
+  
+    * {
+      box-sizing: border-box;
+    }
+
+
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 49%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      
+      content: "";
+      display: table;
+      clear: both;
+    }
+     
+   
+ 
+     
+    @media (max-width:1200px){.column{width:80%; height:auto;}}
+  </style>
+
+</head>
+
+
+<body>
+	<header class="header">
+		<h1 class="logo"><a href="index.html"><img src="textimagini/8.png" width=200px></a></h1>
+      <ul class="main-nav">
+          <li class="dropdown">
+              <a href="modele.html" class="dropbtn" >Modele noi</a>
+              <div class="dropdown-content">
+                <a href="s.html">Clasa S</a>
+                <a href="g.html">Clasa G</a>
+                <a href="amg.html">AMG GT</a>
+              </div>
+            </li>
+            <li class="dropdown">
+                <a href="prototipuri.html" class="dropbtn" id="active">Prototipuri</a>
+                <div class="dropdown-content">
+                  <a href="eq.html">EQ-concept</a>
+                  <a href="plug.html">Plug-In Hybrid diesel</a>
+                </div>
+              </li>
+         
+          <li><a href="oferte.html">Oferte</a></li>
+          <li><a href="innformatii.html">Informații generale</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </header> 
+  
+
+  <div class="row">
+      <div class="column" style=" padding-left:4em;">
+        <img src="textimagini/1-mercedes-benz-concept-eq-electric-mobility-2560x1708-1280x854.jpg" width=433px height=268px style="margin-top:3em;">
+        <P style="color:#009999;">EQ  concept</P> <p> cu o  autonomie ridicată si incărcare rapidă</p>
+        <a href="eq.html" id="detalii" style="margin-left:7em;display:block;">>Detalii< </a> 
+      
+        <img src="textimagini/2015-S550-S-CLASS-SEDAN-FUTURE-GALLERY-003-WR-D.jpg.860x0_q70_crop-scale.jpg" width=435px height=264px style="margin-top:3em;">
+        <p>Nu te poți hotărî între motorina sau electricitate? </p>
+        <p style="color:#009999;"> Incearcă  noul  Plug-In Hybrid diesel</p>
+        <a href="plug.html" id="detalii" style="margin-left:7em;display:block;">>Detalii< </a> 
+            
+       
+      </div>
+      <div class="column" style="margin-top:3em;">
+          <p style="font-size:28px;">Viitorul arată mai bine decât crezi... convinge-te singur</p>
+         
+          <img src="textimagini/17c353_47_158.jpg" width=479px height=267px style="margin-top:3em;">
+          <br><br>
+          <p>Alege gama noastră pentru un viitor mai ecologic. </p>
+     
+          <img src="textimagini/a.bmp" width=370px height=200px style="margin-top:3em;">
+          
+      </div>
+   
+     </div>
+
+
+
+
+</body>
+
+</html>

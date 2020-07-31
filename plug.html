@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="css.css" type="text/css" rel="stylesheet">
+<title>Mercedes-Benz</title>
+<style>
+  
+    * {
+      box-sizing: border-box;
+    }
+
+
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 49%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      
+      content: "";
+      display: table;
+      clear: both;
+    }
+     
+   
+ 
+     
+    @media (max-width:1200px){.column{width:80%; height:auto;}}
+  </style>  
+</head>
+
+
+<body>
+	<header class="header">
+		<h1 class="logo"><a href="index.html"><img src="textimagini/8.png" width=200px></a></h1>
+      <ul class="main-nav">
+          <li class="dropdown">
+              <a href="modele.html" class="dropbtn">Modele noi</a>
+              <div class="dropdown-content">
+                <a href="s.html">Clasa S</a>
+                <a href="g.html" >Clasa G</a>
+                <a href="amg.html">AMG GT</a>
+              </div>
+            </li>
+            <li class="dropdown">
+                <a href="prototipuri.html" class="dropbtn" id="active">Prototipuri</a>
+                <div class="dropdown-content">
+                  <a href="eq.html" >EQ-concept</a>
+                  <a href="plug.html" id="active">Plug-In Hybrid diesel</a>
+                </div>
+              </li>
+         
+          <li><a href="oferte.html">Oferte</a></li>
+          <li><a href="innformatii.html">Informații generale</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </header> 
+  
+
+  <div class="row">
+      <div class="column" style=" padding-left:4em;">
+        <img src="textimagini/10-1.jpg" width=414px height=187px style="margin-top:3em;">
+        <p style="width:80%;">Acumulatorul sistemului hibrid are o capacitate de 13.5 kWh, iar modelul are o autonomie de până la 57 de kilometri atunci când se rulează în modul 100% electric. Viteza maximă posibilă în modul electric trece de 130 km/h, suficient pentru naveta zilnică.</p>
+        <img src="textimagini/16-1.jpg" width=370px height=201px style="margin-top:3em;">
+        <p style="width:80%; padding-top:5em;">Motorul electric produce 122 CP și un cuplu de 440 Nm, iar sistemul hibrid este conectat la o cutie automată 9G-TRONIC cu 9 trepte.</p>
+
+      </div>
+      <div class="column" style="margin-top:3em;">
+          <p style="color:#169BD5;text-align:center;font-size:22px;">Mercedes-Benz Plug-In Hybrid dieselPlug-In Hybrid diesel </p>
+          <p style="width:80%;padding-top:2em;">Noul Mercedes-Benz C300 de îmbină noul motor diesel de 2.0 litri cu un sistem plug-in hibrid și este capabil să ofere un cuplu motor total de până la 700 Nm (la 1.400 rpm) și o putere totală de 306 CP. Modelul va fi putea fi comandat în variantele break sau sedan.</p>
+          <img src="textimagini/15-1.jpg" width=457px height=239px style="margin-top:3em;">
+          <br>
+          <p style="width:80%;">Oficialii Mercedes susțin că acumulatorul poate fi încărcat în 90 de minute de la 10-100% atunci când se folosește o priză cu capacitatea de 7.4 kW. De la o priză convențională, bateria se va încărca într-un timp de aproximativ cinci ore.</p>
+          <img src="textimagini/4-1.jpg" width=425px height=148px style="margin-top:3em;">
+          
+          </div>
+   
+     </div>
+ 
+
+
+
+
+
+</body>
+
+</html>
